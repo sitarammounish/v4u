@@ -1,0 +1,16 @@
+.grid-container {
+  padding: 20px; /* Add padding to container */
+}
+
+.grid-image {
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-image {
+  width: 100%; /* Adjust image width to fill its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 430px;
+  max-height: 350px;
+}

@@ -1,0 +1,25 @@
+
+.wrapper-background {
+  background-color: rgb(226, 242, 178); 
+  padding: 60px 0; 
+}
+
+
+
+.feature-column {
+  text-align: center; 
+}
+
+.restaurant-image {
+  width: 80%; 
+  height: auto; 
+    display: block; 
+  margin: 0 auto 20px; 
+}
+
+.wrapperBanner {
+  font-size: 2rem; 
+  margin-bottom: 20px; 
+  font-family: 'Rouge Script', cursive; 
+} 
+
