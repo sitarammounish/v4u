@@ -7,8 +7,9 @@ import { Suspense } from 'react';
 import { ToastContainer } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
-// import Products from './pages/products';
-// import AboutUs from './pages/AboutUs';
+import ProductGrid from './components/ProductGrid';
+//import Products from './pages/products';
+import About from './components/About';
 
 
 function App() {
@@ -16,10 +17,10 @@ function App() {
       <BrowserRouter>
         
         <Header />
-        <Routes>
+        <Routes>//
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Home />} />
-          <Route path="/about" element={<Home />} />
+          <Route path="/products" element={<ProductGrid />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />

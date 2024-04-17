@@ -1,24 +1,20 @@
-.contact-person {
-    margin-bottom: 30px;
-    text-align: center; /* Center-align the contact details */
-  }
+ h2,h3{
+  font-family: 'Rouge Script', cursive; 
   
-  .contact-person h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center-align the contact details horizontally */
-  }
-  
-  .contact-icon {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  
-  .contact-details p {
-    margin: 0;
-  }
+}
+
+p{
+  font-size: 19px;
+  font-style: italic;
+  font-family: 'Rouge Script';
+ 
+}
+
+h2{
+  font-weight: bold;
+ 
+}
+html{
+  background-color: black;
+}
+
