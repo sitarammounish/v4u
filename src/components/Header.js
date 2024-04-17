@@ -11,7 +11,7 @@ const Header = () => {
           <div className="container">
           <img src={logo} alt="Logo" className="navbar-brand-img" style={{ width: '150px', height: 'auto' }}/>
 
-            <Link className="navbar-brand fw-bold fs-4 px-2" to="/">The Perfect Date</Link>
+            <Link className="navbar-brand fw-bold fs-4 px-2" to="/">The Perfect Dine</Link>
             <button className="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>

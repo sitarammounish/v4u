@@ -123,7 +123,7 @@ const About = () => {
               </p>
               <p>
                 For more information on franchise opportunities, please contact
-                us at franchise@perfectdate.com or call +1-(437)-477-1605
+                us at franchise@perfectdine.com or call +1-(437)-477-1605
               </p>
             </div>
             <div>
@@ -147,7 +147,7 @@ const About = () => {
               <h2>Know Your Ingredients</h2>
               <br></br>
               <p>
-                At The Perfect Date, we prioritize quality ingredients to create
+                At The Perfect Dine, we prioritize quality ingredients to create
                 delicious dishes. We carefully select each ingredient for its
                 freshness, flavor, and nutritional value.
               </p>
