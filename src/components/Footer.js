@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './Footer.css'
+import logo from "../images/logo1.png"
 
 const Footer = () => {
   return (
@@ -11,11 +12,15 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <div className="logo">
                   <ion-icon name="bag"></ion-icon>
-                  <h1>Perfect Fit</h1>
+                  <h1>The Perfect Date</h1>
               </div>
+              
+              <img src={logo} alt="Logo" className="navbar-brand-img" style={{ width: '75px', height: 'auto' }}/>
               <p>Where moments become cherished memories </p>
             </Col>
+           
             <Col md={3} sm={5} className='box'>
+           
               <h2>About Us</h2>
               <ul>
                 <li>Careers</li>
