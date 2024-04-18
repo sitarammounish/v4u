@@ -1,0 +1,21 @@
+ 
+ h2,h3{
+  font-family: 'Rouge Script', cursive; 
+  
+}
+
+p{
+  font-size: 19px;
+  font-style: italic;
+  font-family: 'Rouge Script';
+ 
+}
+
+h2{
+  font-weight: bold;
+ 
+}
+html{
+  background-color: black;
+}
+
