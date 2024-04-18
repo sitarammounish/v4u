@@ -1,0 +1,14 @@
+.menu-heading {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+
