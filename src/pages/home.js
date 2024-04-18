@@ -6,7 +6,7 @@ import VideoContainer from '../components/VideoContainer';
 import ItemGrid from "../components/ItemGrid"
 import SliderHome from '../components/Slider'
 import Wrapper from '../components/Wrapper'
-import TeamIntroduction from '../components/TeamIntroduction';
+import Testimonials from '../components/Testimonials';
 
 
 const Home = () => {
@@ -16,8 +16,10 @@ const Home = () => {
       <SliderHome />
       <VideoContainer/>
       <Wrapper />
-      <TeamIntroduction/>
-      {/* <ProductGrid /> */}
+
+     
+      <ProductGrid />
+      <Testimonials/>
       {/* <ItemGrid /> */}
       {/* <Footer /> */}
     </div>

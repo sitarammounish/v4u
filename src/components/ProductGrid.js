@@ -17,7 +17,7 @@ const ProductGrid = () => {
         </p>
       </div>
       <div>
-        <img src={naan} alt="Item 1" style={{ width: '100%', height:'330px' }} />
+        <img src={samosa} alt="Item 1" style={{ width: '100%', height:'330px' }} />
       </div>
 
       {/* Second Item */}

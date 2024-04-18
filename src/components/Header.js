@@ -19,16 +19,16 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav m-auto my-2 text-center">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">Home </Link>
+                  <Link className="nav-link aColor" to="/">Home </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/products">Products</Link>
+                  <Link className="nav-link aColor" to="/products">Products</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/about">About Us</Link>
+                  <Link className="nav-link aColor" to="/about">About Us</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact">Contact Us</Link>
+                  <Link className="nav-link aColor" to="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>

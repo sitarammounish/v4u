@@ -74,7 +74,7 @@ const UniqueProduct = () => {
 							<Button
 								style={{
 									backgroundColor: "#000000",
-									fontFamily: "Rouge Script",
+									fontFamily: "cursive",
 								}}
 								className="mr-4"
 							>

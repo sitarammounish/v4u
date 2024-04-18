@@ -1,0 +1,58 @@
+
+.testimonials-container {
+  display: flex;
+  width: 100%;
+  background-color: #e2f2b2;
+  margin-top: 80px; /* Add margin to the top */
+}
+
+.image-container {
+  flex: 1; /* Take up half of the container width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  padding-top: 30px;
+}
+
+.testimonials-text {
+  flex: 1; /* Take up the other half of the container width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.name {
+  margin-top: 8px;
+}
+
+/* Styling for headers on the text side */
+.testimonials-text h2 {
+  font-family: 'Rouge Script', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonials-text h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 120px;
+  font-family: cursive;
+}
+

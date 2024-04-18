@@ -5,7 +5,7 @@ import logo from "../images/logo1.png"
 
 const Footer = () => {
   return (
-    <div style={{marginTop:'30px'}}>
+    <div >
         <footer>
         <Container>
           <Row className="footer-row">
