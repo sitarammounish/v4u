@@ -9,28 +9,31 @@ import image2 from "../images/rice.png";
 import image3 from "../images/naan.jpg";
 
 const Products = () => {
+	// State variables for filterList and backgroundImage
 	const [filterList] = useState(products);
 	const [backgroundImage, setBackgroundImage] = useState("");
 	const backgroundImages = [image1, image2, image3];
 
+	// useEffect hook to change background image at intervals
 	useEffect(() => {
 		const changeBackgroundImage = () => {
 			const randomIndex = Math.floor(Math.random() * backgroundImages.length);
 			setBackgroundImage(backgroundImages[randomIndex]);
 		};
-		const intervalId = setInterval(changeBackgroundImage, 2000);
-		return () => clearInterval(intervalId);
+		const intervalId = setInterval(changeBackgroundImage, 2000); // Changing background image every 2 seconds
+		return () => clearInterval(intervalId); // Clearing interval on component unmount
 	}, []);
-
+	// Rendering the Products component
 	return (
 		<Fragment>
+			{/* Heading for the menu with dynamic background image */}
 			<h1
 				className="menu-heading"
 				style={{ backgroundImage: `url(${backgroundImage})` }}
 			>
 				Menu
 			</h1>
-
+			{/* Section for filter bar and product lists */}
 			<section className="filter-bar">
 				<Container className="filter-bar-container">
 					<Row className="justify-content-center">
@@ -38,9 +41,11 @@ const Products = () => {
 						<Col md={8}></Col>
 					</Row>
 				</Container>
+				{/* Container for displaying ProductList component */}
 				<Container>
 					<ProductList productItems={filterList} />
 				</Container>
+				{/* Container for displaying UniqueProduct component */}
 				<Container>
 					<UniqueProduct />
 				</Container>
