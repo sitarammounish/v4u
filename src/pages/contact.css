@@ -19,12 +19,12 @@
     resize: vertical;
   }
   Form{
-    font-family: 'Rouge Script';
+    font-family: cursive;
   }
   
   .submitbutton{
     
-        font-family: 'Rouge Script', cursive; 
+        font-family: cursive; 
         background-color: #065f16;
     border: none;
     color: white;
