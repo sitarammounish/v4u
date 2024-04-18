@@ -7,8 +7,8 @@ import { Suspense } from "react";
 import { ToastContainer } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
-import About from "./components/About";
+import Contact from "./pages/ContactUs";
+import About from "./pages/AboutUs";
 import Products from "./pages/Product";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/products" element={<Products />} />
 				<Route path="/about" element={<About />} />
-				<Route path="*" element={<Home />} />
+				<Route path="*" element={<Contact />} />
 			</Routes>
 			<Footer />
 		</BrowserRouter>
