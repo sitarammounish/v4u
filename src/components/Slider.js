@@ -18,6 +18,7 @@ const SliderHome = () => {
 
 
     const settings = {
+        dots: true,
         nav: false,
         infinite: true,
         slidesToShow: 1,

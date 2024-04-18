@@ -5,7 +5,7 @@ import video from '../images/video.mp4'; // Import your video file
 import './VideoContainer.css'; // Import custom CSS for styling
 
 const VideoContainer = () => {
-  const quote = "Good Food "; // Define your quote
+  const quote = "Delightful Experience, with World Class Dining"; // Define your quote
 
   return (
     <Container className="video-container">

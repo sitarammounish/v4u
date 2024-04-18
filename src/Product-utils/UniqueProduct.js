@@ -59,7 +59,13 @@ const UniqueProduct = () => {
 							</p>
 						</div>
 						<div className="mt-4 d-flex align-items-center">
-							<Button style={{ backgroundColor: "#273b52" }} className="mr-4">
+							<Button
+								style={{
+									backgroundColor: "#000000",
+									fontFamily: "Rouge Script",
+								}}
+								className="mr-4"
+							>
 								Order Now
 							</Button>
 							<div className="flex flex-col">

@@ -8,12 +8,7 @@ const Wrapper = () => {
     <section className='wrapper-background'>
       <Container>
         <Row className='align-items-center'> 
-          <Col md={6} className='feature-column'>
             <img src={dining} alt='Restaurant' className='restaurant-image' />
-          </Col>
-          <Col md={6} className='feature-column'>
-            <h2 className="wrapperBanner">Delightful Experience with World Class Dining</h2>
-          </Col>
         </Row>
       </Container>
     </section>

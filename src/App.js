@@ -7,18 +7,19 @@ import { Suspense } from "react";
 import { ToastContainer } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
+import About from "./components/About";
 import Products from "./pages/Product";
-// import Products from './pages/products';
-// import AboutUs from './pages/AboutUs';
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Header />
 			<Routes>
+				//
 				<Route path="/" element={<Home />} />
 				<Route path="/products" element={<Products />} />
-				<Route path="/about" element={<Home />} />
+				<Route path="/about" element={<About />} />
 				<Route path="*" element={<Home />} />
 			</Routes>
 			<Footer />

@@ -6,6 +6,8 @@ import VideoContainer from '../components/VideoContainer';
 import ItemGrid from "../components/ItemGrid"
 import SliderHome from '../components/Slider'
 import Wrapper from '../components/Wrapper'
+import TeamIntroduction from '../components/TeamIntroduction';
+
 
 const Home = () => {
   return (
@@ -14,7 +16,8 @@ const Home = () => {
       <SliderHome />
       <VideoContainer/>
       <Wrapper />
-      <ProductGrid />
+      <TeamIntroduction/>
+      {/* <ProductGrid /> */}
       {/* <ItemGrid /> */}
       {/* <Footer /> */}
     </div>
