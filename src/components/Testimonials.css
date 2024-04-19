@@ -39,6 +39,7 @@
 
 .name {
   margin-top: 8px;
+  font-weight: bold;
 }
 
 /* Styling for headers on the text side */
