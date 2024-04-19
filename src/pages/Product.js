@@ -9,12 +9,13 @@ import image1 from "../images/assorted-spices-near-chicken-kebab.jpg";
 import image2 from "../images/rice.png";
 import image3 from "../images/naan.jpg";
 
+const backgroundImages = [image1, image2, image3];
+
 const Products = () => {
 	// State variables for filterList and backgroundImage
 	const [filterList] = useState(products);
 	const [backgroundImage, setBackgroundImage] = useState("");
-	const backgroundImages = [image1, image2, image3];
-
+	
 	// useEffect hook to change background image at intervals
 	useEffect(() => {
 		const changeBackgroundImage = () => {

@@ -1,6 +1,6 @@
 // Kirtan Dabhoya - 8886896
 import "../src/Css/App.css";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
