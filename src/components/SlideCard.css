@@ -46,14 +46,15 @@
 
 
 .handlebutton {
-    background-color: #000000; 
+    background-color: #98b540; 
     border: none;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-weight: bolder;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
@@ -61,9 +62,17 @@
 }
 
 .handlebutton:hover {
-    background-color: #7c1320; /* Darker Green */
+    background-color: #3c4b10; /* Darker Green */
 }
 
 .homeSlide{
     font-family: cursive; 
+}
+
+.color {
+    color: #273b52;
+}
+
+.imgWidth {
+   width: 100% !important;
 }

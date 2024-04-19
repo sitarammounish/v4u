@@ -10,10 +10,7 @@ import varied from "../images/varied.png";
 import aboutbuffet1 from "../images/about_bufffet1.jpeg";
 import thali from "../images/thali.png";
 import "./About.css";
-
-{
-  /* importing all the required files */
-}
+import OurTeam from "../components/OurTeam"
 
 const About = () => {
   return (
@@ -247,6 +244,7 @@ const About = () => {
             </p>
           </Col>
         </Row>
+        <OurTeam/>
       </Container>
     </div>
   );

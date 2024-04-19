@@ -16,12 +16,12 @@ const SlideCard = ({ title, desc, cover }) => {
       <Container className='box' >
         <Row >
           <Col md={6}>
-            <h1 style={{ color: '#273b52' }}>{title}</h1>
+            <h1 className='color'>{title}</h1>
             <p>{desc}</p>
-            <Button className='handlebutton' onClick={handleButtonClick}>Visit Collections</Button>
+            <Button className='handlebutton' onClick={handleButtonClick}>View Itenary</Button>
           </Col>
           <Col md={6}>
-            <Image src={cover} alt="#" style={{ width: '100%' }} />
+            <Image src={cover} alt="#" className='imgWidth' />
           </Col>
         </Row>
 
