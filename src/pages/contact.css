@@ -1,0 +1,81 @@
+/* ContactUs.css */
+
+
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  Form{
+    font-family: cursive;
+  }
+  
+  .submitbutton{
+    
+        font-family: cursive; 
+        background-color: #065f16;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    
+  }
+  .cancelbutton{
+    background-color: #6e1504;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Location section styles */
+  h2 {
+    margin-top: 40px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Map image styles */
+  .contact {
+    max-width: 90%;
+    height: auto;
+    margin-left: 90px;
+    /* margin-top: 20px; */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      margin-top: 20px;
+    }
+  }
+  

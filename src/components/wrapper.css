@@ -11,7 +11,7 @@
 }
 
 .restaurant-image {
-  width: 80%; 
+  width: 100%; 
   height: auto; 
     display: block; 
   margin: 0 auto 20px; 
@@ -20,6 +20,6 @@
 .wrapperBanner {
   font-size: 2rem; 
   margin-bottom: 20px; 
-  font-family: 'Rouge Script', cursive; 
+  font-family:  cursive; 
 } 
 
