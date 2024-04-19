@@ -1,14 +1,16 @@
+// Worked by Sitaram Mounish Talluri - 8885467
 import React from 'react';
-import './Testimonials.css'; // Import CSS file for styling
-import men from '../images/men.png'; // Import image (replace with your actual image import)
+import '../Css/Testimonials.css'; 
+import men from '../images/men.png'; 
 
 const Testimonials = () => {
   return (
     <div className="testimonials-container">
       <div className="image-container">
-        {/* Replace 'image-placeholder' with the actual image */}
+               {/* Image of Man in Testimonials */}
         <img src={men} alt="Testimonial" className="testimonial-image" />
       </div>
+      {/* Testimonials Text */}
       <div className="testimonials-text">
         <div className="testimonials-header">
           <h2>Testimonials</h2>

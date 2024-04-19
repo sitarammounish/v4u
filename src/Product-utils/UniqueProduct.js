@@ -1,3 +1,4 @@
+// Worked by Hiral Barot - 8827697
 import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -10,11 +11,11 @@ const UniqueProduct = () => {
 
 	return (
 		// Container with a background color and padding
-		<div className="bg-light pb-7 lg:pb-0" style={{ marginTop: "50px" }}>
+		<div className="bg-light pb-7 lg:pb-0 customMargin" >
 			<Container fluid>
 				<strong>
 					{/* Heading for the featured dish */}
-					<h3 style={{ color: "#273b52" }}>Featured Dish</h3>
+					<h3 className="customColor">Featured Dish</h3>
 				</strong>
 				{/* Row for displaying product information */}
 				<Row className="justify-content-center">
@@ -23,12 +24,12 @@ const UniqueProduct = () => {
 						<Image
 							src={uniqueProductImage}
 							alt="dish"
-							className="w-100 mb-4"
-							style={{ height: "650px" }}
+							className="w-100 mb-4 heightStyle"
+							
 						/>
 					</Col>
 					{/* Column for displaying product details */}
-					<Col md={6} style={{ color: "#273b52" }} className="ml-2">
+					<Col md={6} className="ml-2 customColor">
 						<strong>
 							<h3 className="text-navy-blue text-4xl font-bold mb-4">
 								Spicy Chicken Curry
@@ -72,11 +73,8 @@ const UniqueProduct = () => {
 						{/* Section for ordering the dish */}
 						<div className="mt-4 d-flex align-items-center">
 							<Button
-								style={{
-									backgroundColor: "#000000",
-									fontFamily: "cursive",
-								}}
-								className="mr-4"
+								
+								className="mr-4 fontStyle"
 							>
 								Order Now
 							</Button>

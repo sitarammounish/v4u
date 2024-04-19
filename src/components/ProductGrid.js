@@ -1,11 +1,13 @@
+// Worked by Sitaram Mounish Talluri - 8885467
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import naan from "../images/naan.jpg"
 import rice from "../images/rice.png"
 import steak from "../images/steak.jpg"
-import './productGrid.css'
+import '../Css/productGrid.css'
 const ProductGrid = () => {
   return (
+    // Product grid on home page 
     <Container>
         <div className='marginContainer'>
         <div className='grid'>

@@ -1,7 +1,7 @@
+// Worked by Porkodi Rajan - 8884325
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Container, Nav, Navbar, NavDropdown, NavLink } from 'react-bootstrap'
-import "./Header.css"
+import "../Css/Header.css"
 import logo from "../images/logo1.png"
 const Header = () => {
   return (
@@ -16,13 +16,15 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
 
+            {/* Page links prescribed in header */}
+
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav m-auto my-2 text-center">
                 <li className="nav-item">
                   <Link className="nav-link aColor" to="/">Home </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link aColor" to="/products">Products</Link>
+                  <Link className="nav-link aColor" to="/products">Menu</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link aColor" to="/about">About Us</Link>

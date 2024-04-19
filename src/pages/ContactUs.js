@@ -1,8 +1,9 @@
+// Worked by Kirtan Dabhoya - 8886896
 import React from "react";
 import { Col, Container, Row, Form, Button } from "react-bootstrap";
 import mapImage from "../images/map.gif";
 import bannerImage from "../images/contactus.jpg"; 
-import "./contact.css";
+import "../Css/contact.css";
 const ContactUs = () => {
   return (
     <div>
@@ -52,6 +53,7 @@ const ContactUs = () => {
             </Col>
             <Col md={6}>
               <h2>Location</h2>
+              {/* Map Image */}
               <hr></hr>
               <p>
                 Visit us at our location:

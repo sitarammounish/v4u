@@ -1,11 +1,12 @@
+// Worked by Sitaram Mounish Talluri - 8885467
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import video from '../images/video.mp4'; // Import your video file
-import './VideoContainer.css'; // Import custom CSS for styling
+import video from '../images/video.mp4'; 
+import '../Css/VideoContainer.css'; 
 
 const VideoContainer = () => {
-  const quote = "Delightful Experience, with World Class Dining"; // Define your quote
+  const quote = "Delightful Experience, with World Class Dining"; 
 
   return (
     <Container className="video-container">

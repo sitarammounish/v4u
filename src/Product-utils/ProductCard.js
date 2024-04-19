@@ -1,6 +1,7 @@
+// Worked by Hiral Barot - 8827697
 import React from "react";
 import { Col } from "react-bootstrap";
-import "./ProductCard.css";
+import "../Css/ProductCard.css";
 
 const ProductCard = ({ productItem }) => {
 	return (
@@ -15,7 +16,7 @@ const ProductCard = ({ productItem }) => {
 			{/* Product details */}
 			<div className="product-details">
 				{/* Product name */}
-				<h4 style={{ color: "#273b52" }}>{productItem.productName}</h4>
+				<h4 className="customColor">{productItem.productName}</h4>
 
 				{/* Product rating */}
 
@@ -29,7 +30,7 @@ const ProductCard = ({ productItem }) => {
 
 				{/* Product price */}
 				<div className="price">
-					<h4 style={{ color: "#273b52" }}>${productItem.price}</h4>
+					<h4 className="customColor">${productItem.price}</h4>
 				</div>
 			</div>
 		</Col>

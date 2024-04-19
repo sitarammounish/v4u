@@ -1,7 +1,8 @@
+// Worked by Sitaram Mounish Talluri - 8885467
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import './wrapper.css'; // Import custom CSS for additional styling
-import dining from '../images/dining.jpg'; // Import your restaurant image
+import {Container, Row } from 'react-bootstrap';
+import '../Css/wrapper.css'; 
+import dining from '../images/dining.jpg'; 
 
 const Wrapper = () => {
   return (

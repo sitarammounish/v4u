@@ -1,5 +1,6 @@
+// Worked by Sitaram Mounish Talluri - 8885467
 import React from 'react';
-import './ourTeam.css'; // Import your CSS file for styling
+import '../Css/ourTeam.css'; 
 import porkodi from "../images/porkodi.jpeg"
 import hiral from "../images/hiral.jpeg"
 import kirtan from "../images/kirtan.jpeg"

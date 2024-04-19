@@ -42,3 +42,21 @@
 h4 {
     font-family: cursive; 
 }
+
+.customMargin {
+     margin-top: 50px;
+}
+
+.heightStyle{
+  height: 650px;
+}
+
+.customColor {
+    color: #273b52
+}
+
+.fontStyle {
+   
+        background-color: "#000000";
+        font-family: "cursive";
+}

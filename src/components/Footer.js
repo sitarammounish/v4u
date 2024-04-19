@@ -1,6 +1,7 @@
+// Worked by Porkodi Rajan - 8884325
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import './Footer.css'
+import '../Css/Footer.css'
 import logo from "../images/logo1.png"
 
 const Footer = () => {
@@ -18,6 +19,8 @@ const Footer = () => {
               <img src={logo} alt="Logo" className="navbar-brand-img" style={{ width: '75px', height: 'auto' }}/>
               <p>Where moments become cherished memories </p>
             </Col>
+
+            {/* Footer Links and thir sublinks */}
            
             <Col md={3} sm={5} className='box'>
            
@@ -41,7 +44,7 @@ const Footer = () => {
               <h2>Contact Us</h2>
               <ul>
               
-                <li>Email: stalluri5467@conestogac.on.ca</li>
+                <li>Email: group6@conestogac.on.ca</li>
                 <li>Phone: +1 424 242 4242</li>
               </ul>
             </Col>

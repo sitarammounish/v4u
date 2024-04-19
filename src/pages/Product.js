@@ -1,9 +1,10 @@
+// Worked by Hiral Barot - 8827697
 import { Fragment, useState, useEffect } from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import ProductList from "../Product-utils/ProductList";
 import UniqueProduct from "../Product-utils/UniqueProduct";
 import { products } from "../utils/productsUtils";
-import "./product.css";
+import "../Css/product.css";
 import image1 from "../images/assorted-spices-near-chicken-kebab.jpg";
 import image2 from "../images/rice.png";
 import image3 from "../images/naan.jpg";

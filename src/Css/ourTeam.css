@@ -5,17 +5,17 @@
 
 .team-members {
   display: flex;
-  justify-content: center; /* Center the items horizontally */
-  flex-wrap: wrap; /* Allow items to wrap if necessary */
-  max-width: auto; /* Adjust max-width as needed */
+  justify-content: center; 
+  flex-wrap: wrap; 
+  max-width: auto; 
   margin: 0 auto;
 }
 
 .team-member {
-  flex: 0 0 200px; /* Set a fixed width for each team member item */
+  flex: 0 0 200px; 
   padding: 30px;
   margin: 10px; 
-  text-align: center; /* Center text within each item */
+  text-align: center; 
 }
 
 .team-member img {

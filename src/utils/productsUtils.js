@@ -1,3 +1,4 @@
+// Worked by Hiral Barot - 8827697
 import productImg01 from "../images/img1.png";
 import productImg02 from "../images/img2.png";
 import productImg03 from "../images/img3.png";

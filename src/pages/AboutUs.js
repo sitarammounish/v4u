@@ -1,3 +1,5 @@
+// Worked by Porkodi Rajan - 8884325
+
 import React from "react";
 import { Col, Container, Row, Carousel } from "react-bootstrap";
 import about from "../images/about_us.jpg";
@@ -9,7 +11,7 @@ import livecounter from "../images/livecounter.jpg";
 import varied from "../images/varied.png";
 import aboutbuffet1 from "../images/about_bufffet1.jpeg";
 import thali from "../images/thali.png";
-import "./About.css";
+import "../Css/About.css"
 import OurTeam from "../components/OurTeam"
 
 const About = () => {

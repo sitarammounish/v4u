@@ -1,14 +1,14 @@
 /* VideoContainer.css */
 
 .video-container {
-  background-color: #f8f9fa; /* Set background color for the video container */
-  padding: 40px 20px; /* Add padding inside the container */
+  background-color: #f8f9fa; 
+  padding: 40px 20px; 
 }
 
 .video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio for video (9/16 = 0.5625) */
+  padding-bottom: 56.25%;
 }
 
 .video-wrapper video {
@@ -20,7 +20,7 @@
 }
 
 .quote-container {
-  margin-top: 20px; /* Add margin above the quote */
+  margin-top: 20px;
 }
 
 .quote-text {
