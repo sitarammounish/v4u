@@ -4,6 +4,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { products } from "../utils/productsUtils";
 import uniqueProductImage from "../images/unique-product.png";
+import "../Css/ProductCard.css"
 
 const UniqueProduct = () => {
 	// Finding the unique product from the products array based on its ID
@@ -73,7 +74,6 @@ const UniqueProduct = () => {
 						{/* Section for ordering the dish */}
 						<div className="mt-4 d-flex align-items-center">
 							<Button
-								
 								className="mr-4 fontStyle"
 							>
 								Order Now
